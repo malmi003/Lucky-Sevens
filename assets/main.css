@@ -1,0 +1,37 @@
+/* 
+Colors: red, black, green, yellow coins
+*/
+
+.container {
+    font-family: 'Lobster', cursive;
+    color: whitesmoke;
+    letter-spacing: .1em;
+}
+
+.jumbotron {
+    /* Photo by Benoit Dare on Unsplash */
+    background: linear-gradient(0deg,rgba(25, 10, 15, .8), rgba(25, 10, 15, .5)), url("./images/benoit-dare-1061182-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+}
+hr {
+    background: #9c5674;
+    max-width: 80%;
+}
+button[type="submit"] {
+    font-size: 1.2em;
+    background: #9c5674;
+    border-color: #9c5674;
+    min-width: 100px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(156, 86, 116,.8);
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(156, 86, 116,.5);
+}
+button[type="submit"]:hover {
+    color: #9c5674;
+    background: whitesmoke;
+}
